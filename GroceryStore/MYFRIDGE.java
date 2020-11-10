@@ -14,11 +14,11 @@ public class MYFRIDGE {
 		total = item1.amount()+item2.amount()+item3.amount()+item4.amount()+item5.amount();
 		
 		System.out.println("name\t\tprice\t\tcount\t\tamount\t\tstore\n");
-		System.out.println(item1.toString()+"\n");
-		System.out.println(item2.toString()+"\n");
-		System.out.println(item3.toString()+"\n");
-		System.out.println(item4.toString()+"\n");
-		System.out.println(item5.toString()+"\n");
+		System.out.println(item1);
+		System.out.println(item2);
+		System.out.println(item3);
+		System.out.println(item4);
+		System.out.println(item5);
 		System.out.println("\t\t\t\t\t\tTOTAL: $"+String.format("%.2f",total));
 	}
 }
